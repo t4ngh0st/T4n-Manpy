@@ -1,8 +1,8 @@
 # 🌱 T4n-Manpy  
-**Simple Python-based Package Manager for Void Linux**
+**Simple Python-based Package Manager for T4n OS**
 
-T4n-Manpy adalah package manager minimalis berbasis **Python** untuk Void Linux.  
-Dibuat untuk mempermudah interaksi dengan **xbps** dan **xbps-src**, serta menambahkan beberapa utilitas tambahan.
+T4n-Manpy adalah package manager minimalis berbasis **Python** untuk T4n OS.
+Dibuat untuk mempermudah interaksi dengan **xbps**, **xbps-src** dan **XDEB**, serta menambahkan beberapa utilitas tambahan.
 
 ---
 
@@ -94,4 +94,4 @@ t4n -src my-template
 ---
 
 ## 📜 Lisensi
-MIT License © 2025 T4n-Manpy
+Apache 3.0 License © 2025 T4n-Manpy
