@@ -2,7 +2,7 @@
 **Simple Python-based Package Manager for T4n OS**
 
 T4n-Manpy adalah package manager minimalis berbasis **Python** untuk T4n OS.
-Dibuat untuk mempermudah interaksi dengan **xbps**, **xbps-src** dan **XDEB**, serta menambahkan beberapa utilitas tambahan.
+Dibuat untuk mempermudah interaksi dengan **xbps**(https://github.com/void-linux/xbps), **xbps-src**(https://github.com/void-linux/void-packages) dan **XDEB**(https://github.com/xdeb-org/xdeb), serta menambahkan beberapa utilitas tambahan.
 
 ---
 
@@ -94,4 +94,4 @@ t4n -src my-template
 ---
 
 ## 📜 Lisensi
-Apache 3.0 License © 2025 T4n-Manpy
+GPL-3.0 License © 2025 T4n-Manpy
