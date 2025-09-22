@@ -44,23 +44,29 @@ Dibuat untuk mempermudah interaksi dengan [**xbps**](https://github.com/void-lin
 
 ## 📂 Struktur Proyek
 ```
-t4n-manpy/
+T4n-Manpy/
 ├─ README.md
 ├─ pyproject.toml
-├─ scripts/
-│  └─ install-system.sh
-├─ t4n_manpy/
-│  ├─ cli.py
-│  ├─ config.py
-│  ├─ core/
-│  │  ├─ installer.py
-│  │  ├─ converter.py
-│  │  └─ src_generator.py
-│  └─ wrappers/
-│     ├─ xdeb
-│     └─ xbps-src
-└─ tests/
-   └─ test_cli.py
+├─ install.sh
+└─ t4n_manpy/
+   ├─ __init__.py
+   ├─ cli.py
+   ├─ config.py
+   ├─ core/
+   │  ├─ __init__.py
+   │  ├─ installer.py
+   │  ├─ converter.py
+   │  ├─ src_generator.py
+   │  ├─ database.py
+   │  └─ utils.py
+   ├─ wrappers/
+   │  ├─ xdeb/
+   │  │  └─ xdeb
+   │  └─ void-packages/
+   │     └─ xbps-src
+   └─ templates/
+      ├─ btop.xbps
+      └─ example.template
 ```
 
 ---
@@ -68,14 +74,15 @@ t4n-manpy/
 ## 🚀 Instalasi
 Clone repo dan install ke sistem:
 ```bash
-git clone https://github.com/yourname/t4n-manpy.git
-cd t4n-manpy
+git clone https://github.com/t4ngh0st/t4n-manpy.git
+cd T4n-Manpy/t4n-manpy
 pip install .
 ```
 
 Atau gunakan script installer:
 ```bash
-sudo bash scripts/install-system.sh
+chmod +x install.sh
+./install.sh
 ```
 
 ---
