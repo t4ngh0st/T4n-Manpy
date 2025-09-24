@@ -113,12 +113,12 @@ tan -q python
 tan -r firefox
 ```
 
-- Convert **`.deb` → `.xbps`** menggunakan wrapper `xdeb`
+- Convert **`.deb` → `.xbps`** menggunakan wrapper `xdeb`(https://github.com/xdeb-org/xdeb)
 ```bash
 tan -xdeb package.deb
 ```
 
-- buat template baru
+- buat template baru menggunakan wrapper `xbps-src`(https://github.com/void-linux/void-packages)
 ```bash
 tan -src my-template
 ```
