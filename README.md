@@ -33,11 +33,11 @@ Dibuat untuk mempermudah interaksi dengan [**xbps**](https://github.com/void-lin
 ## 🛠️ Utilitas Tambahan
 - **Convert `.deb` → `.xbps`** menggunakan wrapper `xdeb`
   ```bash
-  t4n -xdeb <file.deb>
+  tan -xdeb <file.deb>
   ```
 - **Membuat template** menggunakan `xbps-src`
   ```bash
-  t4n -src <template-name>
+  tan -src <template-name>
   ```
 
 ---
@@ -113,7 +113,7 @@ tan -q python
 tan -r firefox
 ```
 
-- convert .deb > .xbps
+- **Convert `.deb` → `.xbps`** menggunakan wrapper `xdeb`
 ```bash
 tan -xdeb package.deb
 ```
