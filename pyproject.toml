@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "t4n-manpy"
-version = "0.2.0"
+version = "1.0.0"
 description = "T4n-Manpy: Python-based package manager for Void Linux"
 requires-python = ">=3.8"
 dependencies = [
