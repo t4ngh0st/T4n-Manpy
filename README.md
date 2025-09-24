@@ -9,23 +9,23 @@ Dibuat untuk mempermudah interaksi dengan [**xbps**](https://github.com/void-lin
 ## ✨ Fitur Utama
 - 📦 **Install software**
   ```bash
-  t4n -i <software>
+  tan -i <software>
   ```
 - 🔄 **Update software tertentu**
   ```bash
-  t4n -u <software>
+  tan -u <software>
   ```
 - ⚡ **Update semua software/system**
   ```bash
-  t4n -ua
+  tan -ua
   ```
 - 🔍 **Query database package**
   ```bash
-  t4n -q <keyword>
+  tan -q <keyword>
   ```
 - ❌ **Remove/uninstall software**
   ```bash
-  t4n -r <software>
+  tan -r <software>
   ```
 
 ---
@@ -88,16 +88,50 @@ chmod +x install.sh
 ---
 
 ## 🖥️ Contoh Penggunaan
+- install software dari repo resmi
 ```bash
-t4n -i neovim
-t4n -u curl
-t4n -ua
-t4n -q python
-t4n -r firefox
-t4n -xdeb package.deb
-t4n -src my-template
+tan -i neovim
 ```
 
+- update software tertentu
+```bash
+tan -u curl
+```
+
+- update semua software & system
+```bash
+tan -ua
+```
+
+- query package database resmi
+```bash
+tan -q python
+```
+
+- remove/uninstall software
+```bash
+tan -r firefox
+```
+
+- convert .deb > .xbps
+```bash
+tan -xdeb package.deb
+```
+
+- buat template baru
+```bash
+tan -src my-template
+```
+
+- Query package di VUR (Void User Repository)
+```bash
+tan -vq bspwm
+```
+
+- install package dari VUR
+```bash
+tan -vur bspwm
+```
 ---
 
 ## 📜 Lisensi
