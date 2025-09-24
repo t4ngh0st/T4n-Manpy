@@ -1,4 +1,4 @@
-# 🌱 T4n-Manpy  
+# 🌱 T4n-Manpy Version 1.0.0
 **Simple Python-based Package Manager for T4n OS**
 
 T4n-Manpy adalah package manager minimalis berbasis **Python** untuk T4n OS.
