@@ -113,7 +113,7 @@ tan -q python
 tan -r firefox
 ```
 
-- **Convert `.deb` → `.xbps`** menggunakan wrapper `xdeb`
+- Convert **`.deb` → `.xbps`** menggunakan wrapper `xdeb`
 ```bash
 tan -xdeb package.deb
 ```
